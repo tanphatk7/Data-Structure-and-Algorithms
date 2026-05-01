@@ -1,0 +1,22 @@
+# Tự động nhận diện các file văn bản và chuẩn hóa kết thúc dòng (Line Endings)
+* text=auto
+
+# Ép các file code sử dụng định dạng xuống dòng LF (chuẩn Linux) 
+# giúp tránh lỗi khi làm việc nhóm giữa Windows và Mac
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+
+# Khai báo các file là dữ liệu nhị phân (Binary)
+# Git sẽ không cố gắng "merge" nội dung bên trong các file này
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.mp4 binary

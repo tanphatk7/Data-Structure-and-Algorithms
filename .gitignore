@@ -1,0 +1,38 @@
+# --- HỆ ĐIỀU HÀNH ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE & EDITOR (VS Code, JetBrains) ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- MÔI TRƯỜNG & BẢO MẬT ---
+.env
+.env.local
+.env.*.local
+*.log
+dist/
+build/
+
+# --- NODE.JS (Nếu bạn làm Web) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# --- PYTHON (Nếu bạn làm Python) ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# --- C++ / C# ---
+bin/
+obj/
+*.exe
+*.dll
+*.so
